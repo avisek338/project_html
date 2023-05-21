@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+        body {
+            background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+            background-size: cover;
+            -webkit-animation: slidein 100s;
+            animation: slidein 100s;
+
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+        }
+
+        @-webkit-keyframes slidein {
+            from {
+                background-position: top;
+                background-size: 3000px;
+            }
+
+            to {
+                background-position: -100px 0px;
+                background-size: 2750px;
+            }
+        }
+
+        @keyframes slidein {
+            from {
+                background-position: top;
+                background-size: 3000px;
+            }
+
+            to {
+                background-position: -100px 0px;
+                background-size: 2750px;
+            }
+
+        }
+
+
+
+        .center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(75, 75, 250, 0.3);
+            border-radius: 3px;
+        }
+
+        .center h1 {
+            text-align: center;
+            color: white;
+            font-family: 'Source Code Pro', monospace;
+            text-transform: uppercase;
+        }
+
+        div {
+            text-align: center;
+            border-color: white;
+            text-align:center;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        .div {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="form">
+       
+            <h1><strong>SIGNUP FORM</strong></h1>
+        
+        <label for="first name">FIRST NAME:</label>
+        <input type="text" id="first name">
+        <br>
+        <br>
+        <label for="last name">LASTNAME:</label>
+        <input type="text" id="last name">
+
+        <br>
+        <br>
+        <label for="DOB">ENTER YOUR DATE OF BIRTH:</label>
+        <input type="date" name="" id="DOB">
+        <br>
+        <br>
+        <label for="username">USERNAME:</label>
+        <input type="text" id="username">
+        <br>
+        <br>
+        <label for="email">EMAIL ADRESS:</label>
+        <input type="email" name="" id="email">
+        <br>
+        <br>
+        <label for="call">PHONE NUMBER:</label>
+        <input type="number" name="" id="call">
+        <br>
+        <br>
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="" id="password">
+        <br>
+        <br>
+        <label for="re-password">RETYPE PASSWORD:</label>
+        <input type="password" name="" id="re-password">
+        <br>
+        <br>
+        <label for="in">CHOOSE</label>
+        <select name="" id="in">
+            <option value="choose any one"></option>
+            <option value="MALE">MALE</option>
+            <option value="FEMALE">FEMALE</option>
+            <option value="OTHERS">OTHERS</option>
+        </select>
+        <br>
+        <br>
+
+        <button type="submit"><a href="files.html" target="_blank">SUBMIT</a></button>
+    </div>
+
+
+</body>
+
+</html>
